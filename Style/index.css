@@ -1,7 +1,18 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20vh;
+    padding-top: 5vh;
+}
+
 .Header{
     width: 100%;
-    height: 40%;
-    background-color: aqua;
+    /* height:  */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #9DB7BE;
+    padding-bottom: 5vh;
 }
 .Header-Left{
     width: 100%;
@@ -26,10 +37,91 @@
 }
 .Header-Left > div > p{
     color: #8a633f;
-    font-size: 3vw;
-    text-align: center;
+    font-size: 2.3vw;
+    /* text-align: center; */
+    width: 5vw;
+    margin: auto;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .Header-Left{
-    width: 40%;
+    width: 50%;
     height: 100%;
+}
+
+.Header-Right{
+    width: 60%;
+}
+.Header-Right p{
+    width: 80%;
+    padding-left: 5vw;
+    font-family: 'Courier New', monospace;
+}
+.Content{
+    width: 100%;
+    display: flex;
+    margin-top: 5vh;
+}
+.Content right{
+    width:50%;
+}
+.Content right div{
+    width:60%;
+    margin: auto;
+    min-height: 20vh;
+}
+.Content right div h1{
+    color: #8A633F;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.Content right div p{
+    translate: 5vw;
+
+}
+
+.Content right div p , .Content right div ul{
+    font-family: 'Courier New', monospace;
+
+}
+.Content right div ul li{
+    margin-bottom: 20px;
+}
+
+.Footer{
+    width: 100%;
+    border-top: 1px solid #9DB7BE;
+    margin-top: 5vh;
+}
+.Footer right{
+    width:80%;
+    margin: auto;
+    display: block;
+}
+.Footer right div h1{
+    color: #8A633F;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer right div p , .Footer right div ul{
+    font-family: 'Courier New', monospace;
+}
+
+.Footer right div ul li{
+    margin-bottom: 20px;
+}
+/*  Components */
+.Border{
+    border-left: 1px solid #8A633F;
 }
